@@ -12,7 +12,7 @@ st.write("Nombre: Diego Angel Escobedo Aranguren")
 st.write("Código ISIL: 76154916")
 
 st.write("### Cuaderno del Google Collab")
-st.markdown("[Abrir Notebook Collab] (https://colab.research.google.com/drive/1-76sfm1xckewWUZrgEhFpyEbloawjkvy?usp=sharing)")
+st.markdown("[Abrir Notebook Collab](https://colab.research.google.com/drive/1-76sfm1xckewWUZrgEhFpyEbloawjkvy?usp=sharing)")
 
 genre = st.text_input("Género")
 price = st.number_input ("Precio", min_value= 0.0)
