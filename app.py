@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('steam_model.pkl')
-encoder = joblib.load('genre_encoder.pkl')
+model = joblib.load('modelos/steam_model.pkl')
+encoder = joblib.load('modelos/genre_encoder.pkl')
 
 st.title("Predicción de Popularidad de videojuegos")
 
