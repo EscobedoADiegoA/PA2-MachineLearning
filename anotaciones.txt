@@ -1,0 +1,30 @@
+Prompt 1:
+	Crear una aplicacion de Machine Learning en Streamlit utilizando un dataset de videojuegos de videojuegos de steam.
+
+	La aplicación debe:
+		1.Cargar un modelo entrenado en formato .pkl
+		2.Permitir ingresar los siguientes campos:
+			-Género
+			-Precio
+			-Recomendaciones
+		3.Predecir si el videojuego será popular o no
+
+	Ten en cuenta que vas a utilizar:
+		-Python
+		-Streamlit
+		-Scikit-learn
+		-2 modelos (Random Forest y Logistic Regression)
+	Una vez hecho todo esto, debes generar:
+		1. Archivo de phyton llamado App
+		2. Documento de texto llamado Requirements
+		3. Archivos .pkl con los modelos usados
+		4. Interfaz visual en streamlit
+
+Prompt 2:
+	Necesito crear un modelo de Machine Learning para predecir la popularidad de videojuegos utilizando un dataset que encontré de Steam Games. En el que debes incluir:
+		1. Análisis exploratorio
+		2. Pre-proccesing
+		3. Entrenamiento de 2 modelos (Random Forest y Logistic Regression)
+		4. Métricas de evaluación
+		5. Guardado del modelo usando joblib
+		6. Despliegue en Streamlit
